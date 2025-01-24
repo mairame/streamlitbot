@@ -12,11 +12,12 @@ Ce projet est une application streamlit. C'est un essai de crétion d'un chabot 
 ## Prérequis 
 
 Il vous faudra : 
-- Python : une version python 3.8 ou superieur. Vous pouvez verifier la version en faisant : 
+- Python : une version python 3.8 ou superieur. Vous pouvez verifier la version en faisant :  ```python --version```
+
 Ainsi que les bibliothèques ci-dessus (à inclure dans le fichier requirements.txt)
-- Streamlit : vérifiez bien que c'est installé 
-- Openai
-- Vérfifiez bien que pip est installé en faisant : ```pip --version```
+  - Streamlit : vérifiez bien que c'est installé 
+  - Openai
+  - Vérfifiez bien que pip est installé en faisant : ```pip --version```
 
 
 ## Les commandes à suivres pour récupérer le code sur un pc et comment l'exécuter. 
