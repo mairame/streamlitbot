@@ -17,7 +17,7 @@ Il vous faudra :
 - Vérfifiez bien que pip est installé en faisant : ```pip --version```
 
 
-# Les commandes à suivres pour récupérer le code sur un pc et comment l'exécuter. 
+## Les commandes à suivres pour récupérer le code sur un pc et comment l'exécuter. 
 D'abord il faudra cloner le projet en faisant : ```git clone <URL du dépot>```. Pensez à bien mettre à jour ce qui est entre <>
 
 Par la suite, il faudra créer un environnement virtuel à  partir d'un terminal en faisant : 
