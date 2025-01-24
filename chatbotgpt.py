@@ -45,6 +45,8 @@ if prompt := st.chat_input("What is up?"):
 
 # insertion selectbox 
 # Choix du GPT
-choix_model= st.selectbox(
-    "Choisissez un modèle GPT:",
-    ["gpt-3.5-turbo", "gpt-3.5-turbo-instruct", "gpt-3.5-turbo-1106", "gpt-3.5-turbo-0125"])
+choix_model= st.selectbox("Choisissez un modèle GPT:",["gpt-3.5-turbo", "gpt-3.5-turbo-instruct", "gpt-3.5-turbo-1106", "gpt-3.5-turbo-0125"])
+
+
+# Ajout d'un slider pour définir max_tokens
+max_tokens = st.slider("Choisissez le nombre maximum de jetons:",min_value=0,max_value=500,value=100,step=10)
