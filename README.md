@@ -17,7 +17,8 @@ Il vous faudra :
 Ainsi que les bibliothèques ci-dessus (à inclure dans le fichier requirements.txt)
   - Streamlit : vérifiez bien que c'est installé 
   - Openai
-  - Vérfifiez bien que pip est installé en faisant : ```pip --version```
+
+Vérifiez bien que pip est installé en faisant : ```pip --version```
 
 
 ## Les commandes à suivres pour récupérer le code sur un pc et comment l'exécuter. 
