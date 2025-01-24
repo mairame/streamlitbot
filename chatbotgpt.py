@@ -41,3 +41,10 @@ if prompt := st.chat_input("What is up?"):
         )
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
+
+
+# insertion selectbox 
+# Choix du GPT
+choix_model= st.selectbox(
+    "Choisissez un modèle GPT:",
+    ["gpt-3.5-turbo", "gpt-3.5-turbo-instruct", "gpt-3.5-turbo-1106", "gpt-3.5-turbo-0125"])
