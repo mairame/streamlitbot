@@ -1,4 +1,5 @@
 # streamlitbot
 
-Mairame SALL
-Aurelie Chantelot 
+* Mairame SALL
+
+* Aurelie Chantelot 
