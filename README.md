@@ -13,7 +13,9 @@ Ce projet est une application streamlit. C'est un essai de crétion d'un chabot 
 
 Il vous faudra : 
 - Python : une version python 3.8 ou superieur. Vous pouvez verifier la version en faisant : 
+Ainsi que les bibliothèques ci-dessus (à inclure dans le fichier requirements.txt)
 - Streamlit : vérifiez bien que c'est installé 
+- Openai
 - Vérfifiez bien que pip est installé en faisant : ```pip --version```
 
 
@@ -29,7 +31,7 @@ Par la suite, il faudra créer un environnement virtuel à  partir d'un terminal
 ```python3 -m venv venv```
 ```source venv/bin/activate```
 
-- Ensuite, installer les requirements en créeant un fichier .txt à l'intérieur de votre projet et ajouter la bibliothèque streamlit avec la commande suivante :
+- Ensuite, installer les requirements en créeant un fichier .txt à l'intérieur de votre projet et ajouter les bibliothèques mentionnées plus haut  avec la commande suivante :
   ```pip install -r requirements.txt```
 
 Par la suite, lancez un "Bonjour streamlit" pour vérifier que streamlit est correctement installé 
